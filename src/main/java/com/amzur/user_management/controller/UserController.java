@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.amzur.user_management.dto.request.OrderResponse;
 import com.amzur.user_management.dto.request.UserRequest;
+import com.amzur.user_management.dto.response.OrderResponse;
 import com.amzur.user_management.dto.response.UserResponse;
 import com.amzur.user_management.service.UserService;
 import jakarta.validation.Valid;

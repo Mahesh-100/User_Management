@@ -14,8 +14,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.amzur.user_management.constants.ApplicationConstants;
-import com.amzur.user_management.dto.request.OrderResponse;
 import com.amzur.user_management.dto.request.UserRequest;
+import com.amzur.user_management.dto.response.OrderResponse;
 import com.amzur.user_management.dto.response.UserResponse;
 import com.amzur.user_management.entities.UserEntity;
 import com.amzur.user_management.handlers.ResourceNotAvailable;

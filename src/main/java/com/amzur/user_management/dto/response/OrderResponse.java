@@ -1,4 +1,4 @@
-package com.amzur.user_management.dto.request;
+package com.amzur.user_management.dto.response;
 
 import lombok.Data;
 
