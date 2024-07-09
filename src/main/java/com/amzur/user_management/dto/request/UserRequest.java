@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 
 public class UserRequest {
-	private long userId;
+	private Long userId;
 	 @NotNull(message = "Please provide name")
 	    @NotEmpty(message = "name should not be empty")
 	private String name;

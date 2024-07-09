@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class UserResponse {
 	
-	private long userId;
+	private Long userId;
 	private String name;
 	private String phoneNumber;
 	private String email;
@@ -16,7 +16,7 @@ public class UserResponse {
 	public long getUserId() {
 		return userId;
 	}
-	public void setUserId(long userId) {
+	public void setUserId(Long userId) {
 		this.userId = userId;
 	}
 	public String getName() {
