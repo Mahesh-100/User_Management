@@ -6,7 +6,8 @@ import lombok.Data;
 public class OrderResponse {
   
     private Long orderId;
-
+    
+    
 	public Long getOrderId() {
 		return orderId;
 	}
